@@ -1,0 +1,34 @@
+{
+  "name": "agglomeration-polygon",
+  "version": "1.0.0",
+  "description": "Interactive visualization of West African agglomeration growth from 2025 to 2050",
+  "main": "map.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static files'",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swac-vis/agglomeration-polygon.git"
+  },
+  "keywords": [
+    "visualization",
+    "maps",
+    "africa",
+    "urbanization",
+    "agglomeration",
+    "d3",
+    "leaflet"
+  ],
+  "author": "SWAC Visualization Team",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "homepage": "https://swac-vis.github.io/agglomeration-polygon/",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
